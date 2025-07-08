@@ -11,7 +11,6 @@
         padding-left: 20px;
         padding-top: 80px;
         align-items: flex-start;
-        box-sizing: border-box;
         display: flex;
         flex-direction: column;
     }
@@ -20,21 +19,16 @@
         transform: translateX(0);
     }
 
-    /* When sidebar is open, hide hamburger icon */
     .sidebar.open+.hamburger-icon {
         display: none;
     }
 
-    /* When sidebar is NOT open, show hamburger icon */
     .hamburger-icon {
         display: block;
-        /* Default for mobile when not open */
     }
-
 
     .close-sidebar-button {
         display: none;
-        /* Hidden by default for mobile */
         position: absolute;
         top: 15px;
         right: 15px;
@@ -43,7 +37,6 @@
 
     .sidebar.open .close-sidebar-button {
         display: block;
-        /* Show close button when sidebar is open */
     }
 
 

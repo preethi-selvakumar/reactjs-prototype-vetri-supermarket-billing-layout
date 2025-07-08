@@ -38,7 +38,6 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    /* ✅ Changed from 100% to 100vh */
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
 }
